@@ -18,6 +18,8 @@ public class VirtualJoystick : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     [SerializeField]
     private TPSCharacterController controller;
 
+    public float sensitivity = 1f;
+
     public enum JoystickType { Move, Rotate, Count };
     public JoystickType joystickType;
 
@@ -67,10 +69,10 @@ public class VirtualJoystick : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         switch (joystickType)
         {
             case JoystickType.Move:
-                controller.MoveJoystick(inputDirection);
+                controller.MoveJoystick(inputDirection * sensitivity);
                 break;
             case JoystickType.Rotate:
-                controller.LookAroundJoystick(inputDirection);
+                controller.LookAroundJoystick(inputDirection * sensitivity);
                 break;
         }   
     }
