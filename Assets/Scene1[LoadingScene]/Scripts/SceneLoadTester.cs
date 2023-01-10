@@ -8,7 +8,11 @@ public class SceneLoadTester : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            LoadingSceneController.LoadScene("Scene2");
+            //Method1("Loading Scene")
+            //LoadingSceneController.LoadScene("Scene2");
+
+            //Method2("Loading Panel = Fadein & Fadeout")
+            LoadingUISceneController.Instance.LoadScene("Scene2");
         }
     }
 }

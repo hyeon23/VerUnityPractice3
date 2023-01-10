@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using System;
 
 public class LoadingUISceneController : MonoBehaviour
 {
@@ -24,7 +23,7 @@ public class LoadingUISceneController : MonoBehaviour
                     instance = Create();
                 }
             }
-            return Instance;
+            return instance;
         }
     }
 
@@ -60,10 +59,10 @@ public class LoadingUISceneController : MonoBehaviour
         //Crtl + . = 
         SceneManager.sceneLoaded += OnSceneLoaded;
         loadSceneName = sceneName;
-        StartCoroutine(loadSceneProcess());
+        StartCoroutine(LoadSceneProcess());
     }
 
-    private IEnumerator loadSceneProcess()
+    private IEnumerator LoadSceneProcess()
     {
         progressBar.fillAmount = 0f;
         yield return StartCoroutine(Fade(true));
@@ -108,9 +107,9 @@ public class LoadingUISceneController : MonoBehaviour
         }
     }
 
-    private void OnSceneLoaded(Scene LoadedScene, LoadSceneMode arg1)
+    private void OnSceneLoaded(Scene arg0, LoadSceneMode arg1)
     {
-        if(LoadedScene.name == loadSceneName)
+        if(arg0.name == loadSceneName)
         {
             StartCoroutine(Fade(false));
             //씬 로딩 완료 콜백함수 제거

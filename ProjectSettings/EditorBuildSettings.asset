@@ -9,14 +9,14 @@ EditorBuildSettings:
     path: Assets/Scene1[LoadingScene]/Scenes/LoadingScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Scene1[LoadingScene]/Scenes/LoadingUIScene.unity
+    guid: 7b006d865d1060c40ba6d025e44a2eda
+  - enabled: 1
     path: Assets/Scene1[LoadingScene]/Scenes/Scene1.unity
     guid: 4bf820ef4d2497f43ae4e9256569e061
   - enabled: 1
     path: Assets/Scene1[LoadingScene]/Scenes/Scene2.unity
     guid: 4ac50b059e81ade4a8511922f43b0d2e
-  - enabled: 1
-    path: Assets/Scene1[LoadingScene]/Scenes/LoadingUIScene.unity
-    guid: 7b006d865d1060c40ba6d025e44a2eda
   - enabled: 1
     path: Assets/Scene2[SingleTone]/Scenes/SingleTone.unity
     guid: d82673b6ec8f86c4aa050b44d9f9a5f3
