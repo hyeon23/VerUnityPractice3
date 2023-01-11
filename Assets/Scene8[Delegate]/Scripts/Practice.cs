@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[System.Serializable]
-public class UnityEventInt : UnityEvent<int>
-{
+//2020 이상 버전에선 이럴 필요 없어짐
+//[System.Serializable]
+//public class UnityEventInt : UnityEvent<int>
+//{
 
-}
+//}
 
 public class Practice : MonoBehaviour
 {
@@ -17,6 +18,10 @@ public class Practice : MonoBehaviour
     //보통 스크립트 내부에서만 사용되는 액션으로 사용
 
     public UnityEvent OnInputSpace;
+
+    public UnityEvent unityEvent;
+    public UnityEvent unityEventInt;
+
     // Start is called before the first frame update
     void Start()
     {
