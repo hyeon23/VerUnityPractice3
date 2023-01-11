@@ -562,9 +562,13 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 1054023075}
+    - target: {fileID: 2313964119520370056, guid: 77eaffdaaf5828646a49bbc3731726f6, type: 3}
+      propertyPath: joystickType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2313964119520370060, guid: 77eaffdaaf5828646a49bbc3731726f6, type: 3}
       propertyPath: m_Name
-      value: Joystick (1)
+      value: JoystickRotate
       objectReference: {fileID: 0}
     - target: {fileID: 2313964119520370063, guid: 77eaffdaaf5828646a49bbc3731726f6, type: 3}
       propertyPath: m_Pivot.x
@@ -855,7 +859,7 @@ PrefabInstance:
       objectReference: {fileID: 1054023075}
     - target: {fileID: 2313964119520370060, guid: 77eaffdaaf5828646a49bbc3731726f6, type: 3}
       propertyPath: m_Name
-      value: Joystick
+      value: JoystickMove
       objectReference: {fileID: 0}
     - target: {fileID: 2313964119520370063, guid: 77eaffdaaf5828646a49bbc3731726f6, type: 3}
       propertyPath: m_Pivot.x

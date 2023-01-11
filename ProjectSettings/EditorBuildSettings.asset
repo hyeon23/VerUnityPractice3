@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene5[TPSMoving]/Scenes/FPSMouseMovingScene.unity
     guid: 66e8db10fbdd32241bbf42786b3ddb3f
+  - enabled: 1
+    path: Assets/Scene7[GTA]/Scenes/SampleScene.unity
+    guid: 2b99ad3ae4574d4459c4fe60a29de463
   m_configObjects: {}
