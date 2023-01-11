@@ -26,9 +26,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene5[TPSMoving]/Scenes/FPSMouseMovingScene.unity
     guid: 66e8db10fbdd32241bbf42786b3ddb3f
-  - enabled: 0
-    path: Assets/Scene7[GTA]/Scenes/SampleScene.unity
-    guid: 2b99ad3ae4574d4459c4fe60a29de463
   - enabled: 1
     path: Assets/Scene7[GTA & Streaming Level]/Scenes/streaming-scene1.unity
     guid: e8434d3935963b44cabbd5cafdb94834
@@ -38,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene8[Delegate]/Scenes/Delegate.unity
     guid: 8f302521de9229c48b7c0e67e317fad7
+  - enabled: 1
+    path: Assets/Scene9[RagDoll]/Scenes/RagDoll.unity
+    guid: 0303bd5b2eebe9844a51416c6593263a
   m_configObjects: {}
